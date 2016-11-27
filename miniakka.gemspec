@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.description = "Allows create actor routers with supervisor."
   s.authors     = ["Adrian Haczyk"]
   s.email       = "haczyslaw@gmail.com"
+  s.homepage    = "https://github.com/haczyslaw/miniakka"
 
   s.files       = Dir["lib/**/*.rb", "lib/**/*.jar"]
   s.license     = "Apache-2.0"
