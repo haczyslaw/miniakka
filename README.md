@@ -1,6 +1,6 @@
 # MiniAkka
 
-add some badge here
+[![Build Status](https://travis-ci.org/haczyslaw/miniakka.svg?branch=master)](https://travis-ci.org/haczyslaw/miniakka)
 
 ## Description
 
@@ -24,7 +24,9 @@ The code has only been tested on JRuby 9.x.x but should work on earlier versions
 ### Libraries
 
 scala-library, version 2.11.8
+
 config, version 1.3.0
+
 akka-actor, version 2.11-2.4.14
 
 ## Installation
@@ -125,8 +127,9 @@ A special thanks to Rocky Jaiswal and Maurício Szabo for inspiring this project
 Rocky wrote an excellent blog post about calculating PI using actors.
 From Maurício's gist I borrow concept of Creator.
 
-    http://rockyj.in/2012/09/15/akka_with_jruby.html
-    https://gist.github.com/mauricioszabo/6a713fd416c512e49f70
+http://rockyj.in/2012/09/15/akka_with_jruby.html
+
+https://gist.github.com/mauricioszabo/6a713fd416c512e49f70
 
 ## Contributing
 
