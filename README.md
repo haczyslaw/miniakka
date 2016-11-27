@@ -1,6 +1,7 @@
 # MiniAkka
 
 [![Build Status](https://travis-ci.org/haczyslaw/miniakka.svg?branch=master)](https://travis-ci.org/haczyslaw/miniakka)
+[![Gem Version](https://badge.fury.io/rb/miniakka.svg)](https://badge.fury.io/rb/miniakka)
 
 ## Description
 
@@ -23,18 +24,24 @@ The code has only been tested on JRuby 9.x.x but should work on earlier versions
 
 ### Libraries
 
-scala-library, version 2.11.8
-
-config, version 1.3.0
-
-akka-actor, version 2.11-2.4.14
+name | version
+--- | ---
+scala-library | 2.11.8
+config | 1.3.0
+akka-actor | 2.11-2.4.14
 
 ## Installation
 
-Add this line to your application's Gemfile:
+From command line:
 
 ```
-gem 'miniakka', git: 'git://github.com/haczyslaw/miniakka.git'
+gem install miniakka
+```
+
+For bundler users, add to Gemfile:
+
+```
+gem 'miniakka'
 ```
 
 ## Usage
