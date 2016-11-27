@@ -1,3 +1,6 @@
+language: ruby
 rvm:
-  - jruby
+  - jruby-9.1.6.0
 script: rake test
+jdk:
+  - oraclejdk8
